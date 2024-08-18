@@ -1,0 +1,16 @@
+node_modules
+dist
+.env
+
+# misc
+.DS_Store
+*.pem
+
+# typescript
+*.tsbuildinfo
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+prisma/generated
