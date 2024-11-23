@@ -8,7 +8,7 @@ import eslint from '@eslint/js'
 import eslintConfigPrettier from 'eslint-config-prettier'
 import importPlugin from 'eslint-plugin-import'
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
-import sonarjs from 'eslint-plugin-sonarjs'
+// import sonarjs from 'eslint-plugin-sonarjs'
 import unusedImports from 'eslint-plugin-unused-imports'
 import tseslint from 'typescript-eslint'
 
@@ -102,7 +102,7 @@ export default tseslint.config(
       },
     },
   },
-  sonarjs.configs.recommended,
+  // sonarjs.configs.recommended,
   eslintPluginPrettierRecommended,
   eslintConfigPrettier,
 )
